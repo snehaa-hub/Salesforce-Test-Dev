@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Kms__c</fullName>
+    <label>Total Km</label>
+    <summarizedField>Employee_Time_Sheet_Line_Item__c.Total_Km__c</summarizedField>
+    <summaryForeignKey>Employee_Time_Sheet_Line_Item__c.Employee_Time_Sheet__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

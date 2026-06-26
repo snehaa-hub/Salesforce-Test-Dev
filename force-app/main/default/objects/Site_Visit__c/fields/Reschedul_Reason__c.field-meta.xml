@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reschedul_Reason__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;Status: &quot; &amp; TEXT(Status__c) &amp;
+IF(
+    OR(
+        TEXT(Status__c) = &quot;Rescheduled&quot;,
+        TEXT(Status__c) = &quot;Cancelled&quot;
+    ),
+    &quot;  Reschedule/Cancellation Reason: &quot; &amp; TEXT(Reschedule_Cancellation_Reason__c),
+    &quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Reschedul Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

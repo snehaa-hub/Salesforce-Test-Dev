@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Height_of_the_dock__c</fullName>
+    <label>Height of the dock</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0.5m</fullName>
+                <default>false</default>
+                <label>0.5m</label>
+            </value>
+            <value>
+                <fullName>0.8m</fullName>
+                <default>false</default>
+                <label>0.8m</label>
+            </value>
+            <value>
+                <fullName>1m</fullName>
+                <default>false</default>
+                <label>1m</label>
+            </value>
+            <value>
+                <fullName>1.2m</fullName>
+                <default>false</default>
+                <label>1.2m</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

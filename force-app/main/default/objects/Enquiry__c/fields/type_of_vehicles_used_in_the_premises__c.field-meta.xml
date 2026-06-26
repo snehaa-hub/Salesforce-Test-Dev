@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>type_of_vehicles_used_in_the_premises__c</fullName>
+    <label>type of vehicles used in the premises</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>40ft</fullName>
+                <default>false</default>
+                <label>40ft</label>
+            </value>
+            <value>
+                <fullName>20ft</fullName>
+                <default>false</default>
+                <label>20ft</label>
+            </value>
+            <value>
+                <fullName>trucks</fullName>
+                <default>false</default>
+                <label>trucks</label>
+            </value>
+            <value>
+                <fullName>tata ace</fullName>
+                <default>false</default>
+                <label>tata ace</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

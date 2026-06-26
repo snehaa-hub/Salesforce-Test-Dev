@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fire_Safety__c</fullName>
+    <label>Fire Safety</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Extinguishers</fullName>
+                <default>false</default>
+                <label>Extinguishers</label>
+            </value>
+            <value>
+                <fullName>Hydrants</fullName>
+                <default>false</default>
+                <label>Hydrants</label>
+            </value>
+            <value>
+                <fullName>Sprinklers</fullName>
+                <default>false</default>
+                <label>Sprinklers</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Not Available</fullName>
+                <default>false</default>
+                <label>Not Available</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

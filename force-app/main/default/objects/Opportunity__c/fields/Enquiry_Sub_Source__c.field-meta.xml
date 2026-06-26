@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enquiry_Sub_Source__c</fullName>
+    <label>Enquiry Sub Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Enquiry_Source__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Enquiry_Sub_Source</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <valueName>Reference</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <valueName>Walk-in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <valueName>Broker / Agent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <valueName>Existing Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <valueName>Employee Referral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <valueName>Flyer / Brochure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <valueName>Event / Expo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <valueName>Newspaper Ad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <valueName>Poster / Banner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <valueName>Cold Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <valueName>TV / Radio Ad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <valueName>Google</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <valueName>Facebook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <valueName>LinkedIn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <valueName>Instagram</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <valueName>99 Acres</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <valueName>Magic Bricks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <valueName>Website/SEO/Organic Search</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <valueName>Email Campaign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <valueName>WhatsApp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <valueName>Chatbot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <valueName>YouTube Ads</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

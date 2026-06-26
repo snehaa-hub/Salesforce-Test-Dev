@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Type__c</fullName>
+    <label>Approval Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Building Permit</fullName>
+                <default>false</default>
+                <label>Building Permit</label>
+            </value>
+            <value>
+                <fullName>RERA (Real Estate Regulatory Authority)</fullName>
+                <default>false</default>
+                <label>RERA (Real Estate Regulatory Authority)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

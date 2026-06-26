@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Index xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Sync_Name</fullName>
+    <fields>
+        <name>Data_Sync_Name__c</name>
+        <sortDirection>ASC</sortDirection>
+    </fields>
+    <label>Data Sync Name</label>
+</Index>

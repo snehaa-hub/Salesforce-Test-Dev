@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Status__c</fullName>
+    <label>Unit Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Available</fullName>
+                <default>true</default>
+                <label>Available</label>
+            </value>
+            <value>
+                <fullName>Not Available</fullName>
+                <default>false</default>
+                <label>Not Available</label>
+            </value>
+            <value>
+                <fullName>Available for lease</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Available for lease</label>
+            </value>
+            <value>
+                <fullName>Available for sales</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Available for sales</label>
+            </value>
+            <value>
+                <fullName>Available for sales/lease</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Available for sales/lease</label>
+            </value>
+            <value>
+                <fullName>Hold</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hold</label>
+            </value>
+            <value>
+                <fullName>On lease</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On lease</label>
+            </value>
+            <value>
+                <fullName>Shortlisted</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shortlisted</label>
+            </value>
+            <value>
+                <fullName>Sold</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sold</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

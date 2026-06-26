@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Size_Range__c</fullName>
+    <label>Size Range</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>below 10000</fullName>
+                <default>false</default>
+                <label>below 10000</label>
+            </value>
+            <value>
+                <fullName>10000 - 25000</fullName>
+                <default>false</default>
+                <label>10000 - 25000</label>
+            </value>
+            <value>
+                <fullName>25000 - 50000</fullName>
+                <default>false</default>
+                <label>25000 - 50000</label>
+            </value>
+            <value>
+                <fullName>50000 - 100000</fullName>
+                <default>false</default>
+                <label>50000 - 100000</label>
+            </value>
+            <value>
+                <fullName>Above 1 Lakh</fullName>
+                <default>false</default>
+                <label>Above 1 Lakh</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Area_in_sqft__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(  TEXT(Project_Area_UOM__c) == &apos;Sq.Ft.&apos;,  Project_Area__c ,  
+			if( TEXT(Project_Area_UOM__c) == &apos;Sq.Meter&apos;,  Project_Area__c * 10.7639 , 
+						if(  TEXT(Project_Area_UOM__c) == &apos;Acres&apos;,  Project_Area__c * 43560 , 
+									if(  TEXT(Project_Area_UOM__c) == &apos;Guntha&apos;,  Project_Area__c * 1089 , 
+												if(  TEXT(Project_Area_UOM__c) == &apos;Bigha&apos;,  Project_Area__c * 17452.0069808 , 
+									        if(  TEXT(Project_Area_UOM__c) == &apos;Sq. Yards&apos;,  Project_Area__c * 8.999991288 , 
+									            if(  TEXT(Project_Area_UOM__c) == &apos;Hectares&apos;,  Project_Area__c * 107639 , 
+									                0
+					                  )
+					              )
+					          )
+					      )
+					   )
+					)
+  )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Project Area (in sqft.)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

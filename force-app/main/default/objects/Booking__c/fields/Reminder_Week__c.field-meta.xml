@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reminder_Week__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+TODAY() - Booking_Invoice_Date__c &lt;= 7,
+&quot;First Week&quot;,
+IF(
+TODAY() - Booking_Invoice_Date__c &lt;= 14,
+&quot;Second Week&quot;,
+IF(
+TODAY() - Booking_Invoice_Date__c &lt;= 21,
+&quot;Third Week&quot;,
+IF(
+TODAY() - Booking_Invoice_Date__c &lt;= 28,
+&quot;Fourth Week&quot;,
+&quot;Beyond Fourth Week&quot;
+)
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Reminder Week</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

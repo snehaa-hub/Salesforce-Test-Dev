@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reschedule_Cancellation_Reason__c</fullName>
+    <label>Reschedule/Cancellation Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Deferred_Reason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not suitable Time</fullName>
+                <default>false</default>
+                <label>Not suitable Time</label>
+            </value>
+            <value>
+                <fullName>Weather Condition</fullName>
+                <default>false</default>
+                <label>Weather Condition</label>
+            </value>
+            <value>
+                <fullName>Traffic Condition</fullName>
+                <default>false</default>
+                <label>Traffic Condition</label>
+            </value>
+            <value>
+                <fullName>Conveyance Issue</fullName>
+                <default>false</default>
+                <label>Conveyance Issue</label>
+            </value>
+            <value>
+                <fullName>Out of Town</fullName>
+                <default>false</default>
+                <label>Out of Town</label>
+            </value>
+            <value>
+                <fullName>Not Informed</fullName>
+                <default>false</default>
+                <label>Not Informed</label>
+            </value>
+            <value>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+                <label>Not Interested</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <controllingFieldValue>Rescheduled</controllingFieldValue>
+            <valueName>Not suitable Time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <controllingFieldValue>Rescheduled</controllingFieldValue>
+            <valueName>Weather Condition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <controllingFieldValue>Rescheduled</controllingFieldValue>
+            <valueName>Traffic Condition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <controllingFieldValue>Rescheduled</controllingFieldValue>
+            <valueName>Conveyance Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <controllingFieldValue>Rescheduled</controllingFieldValue>
+            <valueName>Out of Town</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <controllingFieldValue>Rescheduled</controllingFieldValue>
+            <valueName>Not Informed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <valueName>Not Interested</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
