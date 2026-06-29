@@ -1,0 +1,18 @@
+cd C:\Users\Snehaa G\Desktop\Salesforce-Test-Dev
+
+sf org login web --instance-url https://test.salesforce.com   (only if not already logged in)
+
+sf org list---------------to check  org
+
+sf config set target-org=SandboxOrg----------make it defalut
+
+sf project retrieve start --manifest manifest\package.xml
+
+git status
+
+git add .
+
+git commit -m "Retrieved latest Salesforce changes"
+
+git push origin main
+

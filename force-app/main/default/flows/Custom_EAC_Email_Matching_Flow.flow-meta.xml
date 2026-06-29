@@ -6,7 +6,7 @@
         <label>Create Email Activity with Associations</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
-        <actionName>associateRecordsWithActivityNotFound</actionName>
+        <actionName>associateRecordsWithActivity</actionName>
         <actionType>associateRecordsWithActivity</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
@@ -51,6 +51,7 @@
                 <elementReference>activityId</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>associateRecordsWithActivity</nameSegment>
         <offset>0</offset>
     </actionCalls>
     <actionCalls>
@@ -59,7 +60,7 @@
         <label>Get Account and Opportunity from Email Addresses</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
-        <actionName>getAcctOpptyFromEmailAddrNotFound</actionName>
+        <actionName>getAcctOpptyFromEmailAddr</actionName>
         <actionType>getAcctOpptyFromEmailAddr</actionType>
         <connector>
             <targetReference>AssociateRecordsToActivity</targetReference>
@@ -113,6 +114,7 @@
                 <elementReference>GetContcLeadsFromEmailAddr.value</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>getAcctOpptyFromEmailAddr</nameSegment>
         <offset>0</offset>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </actionCalls>
@@ -122,7 +124,7 @@
         <label>Get Contacts and Leads from Email Addresses</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
-        <actionName>getContcLeadsFromEmailAddrNotFound</actionName>
+        <actionName>getContcLeadsFromEmailAddr</actionName>
         <actionType>getContcLeadsFromEmailAddr</actionType>
         <connector>
             <targetReference>GetAcctOpptyFromEmailAddr</targetReference>
@@ -140,6 +142,7 @@
                 <elementReference>GetUsersFromEmailAddresses.users</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>getContcLeadsFromEmailAddr</nameSegment>
         <offset>0</offset>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </actionCalls>
@@ -149,7 +152,7 @@
         <label>Get Users from Email Addresses</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
-        <actionName>getUsersFromEmailAddressesNotFound</actionName>
+        <actionName>getUsersFromEmailAddresses</actionName>
         <actionType>getUsersFromEmailAddresses</actionType>
         <connector>
             <targetReference>GetContcLeadsFromEmailAddr</targetReference>
@@ -173,6 +176,7 @@
                 <elementReference>ccAddressList</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>getUsersFromEmailAddresses</nameSegment>
         <offset>0</offset>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </actionCalls>
@@ -181,6 +185,7 @@
     <environments>Default</environments>
     <interviewLabel>Custom_EAC_Email_Matching_Flow {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Custom_EAC_Email_Matching_Flow</label>
+    <overriddenFlow>activity_object_matching__EmailMatch</overriddenFlow>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
